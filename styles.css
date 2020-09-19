@@ -1,12 +1,17 @@
 body {
   /* المطلوب الأول هنا */
   text-align: center;
+  background-image: url(./img/kuwaitcodes.png);
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 .card {
   /* المطلوب الثاني هنا */
   width: 400px;
   height: 500px;
   background-color: white;
+  box-shadow: 10px 10px 5px gray;
+  border-radius: 12px;
 }
 
 img {
@@ -14,6 +19,8 @@ img {
   width: 120px;
   height: 120px;
   margin-top: 20px;
+  box-shadow: 10px 10px 10px gray;
+  border-radius: 50%;
 }
 
 .center {
@@ -34,4 +41,8 @@ ul {
 a {
   text-decoration: none;
   color: black;
+}
+
+h3:hover {
+  background-color:orange;
 }
